@@ -1,0 +1,10 @@
+{
+  "name": "spreaking-cando-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple speaking and listening practice website for JPD123 Cando lessons 4-7",
+  "scripts": {
+    "start": "node server.js",
+    "extract": "python scripts/extract_cando.py"
+  }
+}

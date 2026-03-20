@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spreaking Cando 4-7</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <p class="eyebrow">JPD123 Practice</p>
+          <h1>Spreaking</h1>
+          <p class="brand-copy">Luyện nghe và nói cho các phần can-do từ bài 4 đến bài 7.</p>
+        </div>
+
+        <section class="panel">
+          <h2>Bài học</h2>
+          <div id="lesson-list" class="lesson-list"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Audio</h2>
+          <p id="tts-status" class="muted">Đang kiểm tra cấu hình TTS...</p>
+          <label class="field">
+            <span>Giọng đọc</span>
+            <select id="voice-select">
+              <option value="alloy">alloy</option>
+              <option value="coral">coral</option>
+              <option value="nova">nova</option>
+              <option value="sage">sage</option>
+              <option value="ash">ash</option>
+              <option value="marin">marin</option>
+              <option value="cedar">cedar</option>
+            </select>
+          </label>
+          <p class="hint">Nếu chưa cấu hình `OPENAI_API_KEY`, website sẽ dùng giọng đọc của trình duyệt làm fallback.</p>
+        </section>
+      </aside>
+
+      <main class="main">
+        <section class="hero">
+          <div>
+            <p class="eyebrow">Listening + Speaking</p>
+            <h2 id="hero-title">Chọn một phần can-do để bắt đầu</h2>
+            <p id="hero-copy">Mỗi mục có câu hỏi nghe, gợi ý trả lời và phần luyện nói bằng giọng của bạn.</p>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span id="lesson-count">0</span>
+              <small>Bài</small>
+            </div>
+            <div class="stat-card">
+              <span id="module-count">0</span>
+              <small>Can-do</small>
+            </div>
+            <div class="stat-card">
+              <span id="prompt-count">0</span>
+              <small>Câu hỏi</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="workspace">
+          <div class="practice-column">
+            <div id="module-meta" class="module-meta"></div>
+            <div id="prompt-list" class="prompt-list"></div>
+          </div>
+
+          <div class="coach-column">
+            <div class="coach-card">
+              <p class="eyebrow">Current Prompt</p>
+              <h3 id="prompt-japanese">Chưa chọn câu hỏi</h3>
+              <p id="prompt-translation" class="translation">Bên trái là danh sách theo từng can-do.</p>
+
+              <div class="actions">
+                <button id="play-button" class="primary" disabled>Nghe câu hỏi</button>
+                <button id="toggle-answer-button" class="secondary" disabled>Xem gợi ý</button>
+                <button id="recognition-button" class="secondary" disabled>Bắt đầu nói</button>
+              </div>
+
+              <audio id="player" controls class="audio-player"></audio>
+              <p id="player-status" class="muted">Audio sẽ phát bằng OpenAI TTS hoặc giọng trình duyệt.</p>
+            </div>
+
+            <div class="coach-card">
+              <p class="eyebrow">Answer Guide</p>
+              <p id="sample-answer" class="sample-answer">Hãy chọn một câu để xem mẫu trả lời.</p>
+              <ul id="hint-list" class="hint-list"></ul>
+            </div>
+
+            <div class="coach-card">
+              <p class="eyebrow">Speaking Check</p>
+              <p class="muted">Dùng nhận diện giọng nói của trình duyệt để xem bạn vừa nói ra chữ gì. Hợp nhất tốt nhất trên Chrome/Edge.</p>
+              <div id="speech-output" class="speech-output">Chưa có bản ghi.</div>
+              <textarea id="self-note" rows="5" placeholder="Tự ghi chú lỗi phát âm, từ vựng muốn sửa, hoặc câu trả lời của bạn..."></textarea>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data/cando-lessons.js"></script>
+    <script src="./app.js"></script>
+  </body>
+  </html>
