@@ -101,6 +101,13 @@ window.CANDO_LESSONS = [
             vi: "Thành phố của bạn có núi không?",
             sampleAnswer: "はい、あります。ゆうめいなやまがあります。",
             hints: ["Mẫu: まちにNがありますか", "Có thể thay bằng きょうかい / おてら"]
+          },
+          {
+            id: "l4s2q7",
+            japanese: "FPT大学はどんな大学ですか？",
+            vi: "Đại học FPT là trường đại học như thế nào?",
+            sampleAnswer: "大きい大学です。",
+            hints: ["Mẫu: ～はどんな大学ですか", "Trả lời ngắn bằng tính từ + 名詞です"]
           }
         ]
       },
@@ -151,6 +158,13 @@ window.CANDO_LESSONS = [
             vi: "Hà Nội vào tháng 7 có nóng không?",
             sampleAnswer: "はい、とてもあついです。",
             hints: ["Mẫu theo tháng: ～は～月あついですか"]
+          },
+          {
+            id: "l4s3q7",
+            japanese: "日本の料理はどうですか？",
+            vi: "Món ăn Nhật Bản như thế nào?",
+            sampleAnswer: "綺麗です。",
+            hints: ["Mẫu: ～はどうですか", "Có thể thay bằng món ăn, thành phố, thời tiết"]
           }
         ]
       }
@@ -208,6 +222,27 @@ window.CANDO_LESSONS = [
             vi: "Hôm qua vì sao bạn không đi học?",
             sampleAnswer: "びょうきでしたから、行きませんでした。",
             hints: ["Mẫu lý do: ～でしたから", "Có thể dùng いそがしかったですから"]
+          },
+          {
+            id: "l5s6q7",
+            japanese: "昨日どこへ行きましたか？",
+            vi: "Hôm qua bạn đã đi đâu?",
+            sampleAnswer: "大学へ行きました。",
+            hints: ["Mẫu quá khứ: 昨日どこへ行きましたか"]
+          },
+          {
+            id: "l5s6q8",
+            japanese: "昨日どこかへ行きましたか？",
+            vi: "Hôm qua bạn có đi đâu chơi không?",
+            sampleAnswer: "・はい、行きました。・いいえ、どこも行きませんでした。",
+            hints: ["Mẫu yes/no với どこか", "Phủ định dùng どこも行きませんでした"]
+          },
+          {
+            id: "l5s6q9",
+            japanese: "今日、誰と大学へ来ましたか？",
+            vi: "Hôm nay bạn đến trường với ai?",
+            sampleAnswer: "友達と来ました。",
+            hints: ["Mẫu: 誰と～来ましたか", "Người đi cùng + と"]
           }
         ]
       },
@@ -308,6 +343,20 @@ window.CANDO_LESSONS = [
             vi: "Nếu có nhiều tiền, bạn muốn làm gì?",
             sampleAnswer: "日本へりょこうしたいです。",
             hints: ["Mẫu giả định đơn giản rồi trả lời bằng Vたいです"]
+          },
+          {
+            id: "l5s8q7",
+            japanese: "今、どこへ行きたいですか？",
+            vi: "Bây giờ bạn muốn đi đâu?",
+            sampleAnswer: "日本へ行きたいです。",
+            hints: ["Mẫu: 今、どこへ行きたいですか"]
+          },
+          {
+            id: "l5s8q8",
+            japanese: "今、何を買いたいですか？",
+            vi: "Bây giờ bạn muốn mua cái gì?",
+            sampleAnswer: "パソコンを買いたいです。",
+            hints: ["Mẫu: 今、何を買いたいですか"]
           }
         ]
       },
@@ -358,6 +407,13 @@ window.CANDO_LESSONS = [
             vi: "Tuần sau sau giờ học bạn sẽ làm gì?",
             sampleAnswer: "カフェでべんきょうします。",
             hints: ["Dùng hiện tại cho kế hoạch gần tương lai"]
+          },
+          {
+            id: "l5s9q7",
+            japanese: "明日どこかへ行きますか？",
+            vi: "Ngày mai bạn có đi đâu chơi không?",
+            sampleAnswer: "・はい、行きます。・いいえ、どこも行きません。",
+            hints: ["Mẫu tương lai gần với どこか", "Phủ định dùng どこも行きません"]
           }
         ]
       }
@@ -415,6 +471,13 @@ window.CANDO_LESSONS = [
             vi: "Thứ bảy tuần sau cùng đi karaoke nhé?",
             sampleAnswer: "すみません、その日はやくそくがあります。",
             hints: ["Từ chối lịch sự và nêu lý do"]
+          },
+          {
+            id: "l6s11q7",
+            japanese: "一緒にスーパーへ行きませんか？",
+            vi: "Cùng đi siêu thị với mình không?",
+            sampleAnswer: "・はい、行きましょう。・すみません、ちょっと…",
+            hints: ["Mẫu rủ rê rất cơ bản trong bài 6", "Có thể nhận lời hoặc từ chối lịch sự"]
           }
         ]
       },
@@ -465,6 +528,20 @@ window.CANDO_LESSONS = [
             vi: "Ở Việt Nam, cái gì nổi tiếng nhất?",
             sampleAnswer: "フォーがいちばんゆうめいです。",
             hints: ["Mẫu: ～で何がいちばんAですか"]
+          },
+          {
+            id: "l6s12q7",
+            japanese: "飲み物で何が一番好きですか？",
+            vi: "Trong các loại đồ uống, bạn thích gì nhất?",
+            sampleAnswer: "ジュースが一番好きです。",
+            hints: ["Mẫu: ～で何が一番好きですか"]
+          },
+          {
+            id: "l6s12q8",
+            japanese: "ハノイとホーチミンとどちらが賑やかですか？",
+            vi: "Hà Nội và TP.HCM, nơi nào nhộn nhịp hơn?",
+            sampleAnswer: "ホーチミンのほうが賑やかです。",
+            hints: ["Mẫu so sánh: AとBとどちらがAですか", "Trả lời bằng ～のほうが～です"]
           }
         ]
       },
@@ -515,6 +592,13 @@ window.CANDO_LESSONS = [
             vi: "Bạn đọc cuốn sách đó rồi à?",
             sampleAnswer: "いいえ、まだ読んでいません。",
             hints: ["Cặp trả lời chuẩn: もう / まだ"]
+          },
+          {
+            id: "l6s13q7",
+            japanese: "もうフランスへ行きましたか？",
+            vi: "Bạn đã đi Pháp bao giờ chưa?",
+            sampleAnswer: "・はい、行きました。・いいえ、まだです。",
+            hints: ["Mẫu kinh nghiệm: もう～Vましたか", "Có thể trả lời ngắn bằng まだです"]
           }
         ]
       },
@@ -651,6 +735,13 @@ window.CANDO_LESSONS = [
             vi: "Người Nhật ăn cơm bằng gì?",
             sampleAnswer: "はしで食べます。",
             hints: ["Mẫu: ～人は何でご飯を食べますか"]
+          },
+          {
+            id: "l7s18q7",
+            japanese: "何で野菜を切りますか？",
+            vi: "Bạn cắt rau bằng cái gì?",
+            sampleAnswer: "ナイフで切ります。",
+            hints: ["Mẫu: 何で野菜を切りますか"]
           }
         ]
       },
@@ -701,6 +792,13 @@ window.CANDO_LESSONS = [
             vi: "Con chó đang làm gì?",
             sampleAnswer: "ねています。",
             hints: ["Dùng Vています để mô tả hành động đang diễn ra"]
+          },
+          {
+            id: "l7s19q7",
+            japanese: "今、誰が話していますか？",
+            vi: "Bây giờ ai đang nói chuyện vậy?",
+            sampleAnswer: "田中さんが話しています。",
+            hints: ["Mẫu: 今、誰が～ていますか", "Trả lời bằng tên người + が"]
           }
         ]
       }
